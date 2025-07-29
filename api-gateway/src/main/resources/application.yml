@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      server:
+        webmvc:
+          routes:
+            - id: movie-catalog-service
+              uri: http://localhost:8090
+              predicates:
+                          - Path=/movie-info/**
+            - id: movie-streaming-service
+              uri: http://localhost:8091
+              predicates:
+                          - Path=/movie-stream/**
+
+
+server:
+  port: 8000
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
