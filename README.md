@@ -181,7 +181,7 @@ All requests go through `http:localhost:8000`
 
 ## 🧑‍💻 Author
 
-Built by [Your Name](https://github.com/mullatoes) — Powered by ☕, 🎧, and 🍿
+Built by Kevin Kyei (mullatoes) (https://github.com/mullatoes) — Powered by ☕, 🎧, and 🍿
 
 ---
 
