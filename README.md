@@ -74,7 +74,7 @@ This is a microservices-based application designed to simulate a **movie streami
 
 ## ⚙️ How to Run
 
-> ✅ Prerequisite: Docker (for Zipkin & MySQL), Java 17+, Maven
+> ✅ Prerequisite: Docker (for Zipkin & MySQL), Java 24+, Maven
 
 ### 1. Clone the Repo
 
